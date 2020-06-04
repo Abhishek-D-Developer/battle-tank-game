@@ -4,9 +4,9 @@ using UnityEngine;
 using Enemy.View;
 using ScriptableObj;
 
-namespace Enemy.Scrtiptables
+namespace Scriptables
 {
-    [CreateAssetMenu(fileName ="EnemyScriptableObject", menuName ="ScriptableObjects/NewEnemy")]
+    [CreateAssetMenu(fileName = "EnemyScriptableObject", menuName = "ScriptableObjects/NewEnemy")]
     public class EnemyScriptableObject : ScriptableObject
     {
         public EnemyType enemyType;

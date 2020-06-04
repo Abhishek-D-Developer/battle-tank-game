@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1b016c21b8c8ec46ab5740520e71f92, type: 3}
   m_Name: EnemyTankScriptableObjectList
   m_EditorClassIdentifier: 
-  enemyTanks:
+  enemies:
   - {fileID: 11400000, guid: da12ad709b849bf44b6c6e4e15e9fc09, type: 2}
   - {fileID: 11400000, guid: 55fee651b09f9fe48abfcd5bac09b793, type: 2}
   - {fileID: 11400000, guid: b3a33a12aff2ba64a808395d001a92fa, type: 2}

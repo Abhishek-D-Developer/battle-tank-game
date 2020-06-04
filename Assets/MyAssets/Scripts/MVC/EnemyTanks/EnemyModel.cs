@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Enemy.Scriptables;
 using Enemy.Service;
 using System;
+using Scriptables;
 
 namespace Enemy.Model
 {
@@ -11,7 +11,7 @@ namespace Enemy.Model
     {
         public EnemyModel(EnemyScriptableObjectList enemy)
         {
-            
+
         }
     }
 }

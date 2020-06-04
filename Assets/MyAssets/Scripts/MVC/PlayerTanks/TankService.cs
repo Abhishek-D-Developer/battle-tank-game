@@ -29,7 +29,6 @@ namespace Tank.Service
 				CreateTank(i);
 			}
 		}
-
 		private TankController CreateTank(int index)
 		{
 			//TankScriptableObject tankScriptableObject = tankConfigurations[2];

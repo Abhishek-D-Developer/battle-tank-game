@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using Enemy.View;
 
-namespace Enemy.Scriptables
+namespace Scriptables
 {
-    [CreateAssetMenu(fileName = "EnemyTankScriptableObjectList", menuName = "ScriptableObjects/NewEnemyListScriptableObject")]
+    [CreateAssetMenu(fileName = "EnemyScriptableObjectList", menuName = "ScriptableObjects/NewEnemyListScriptableObject")]
+
     public class EnemyScriptableObjectList : ScriptableObject
     {
-        public EnemyScriptableObjectList[] enemyList;
+        public EnemyScriptableObject[] enemyList;
     }
 }

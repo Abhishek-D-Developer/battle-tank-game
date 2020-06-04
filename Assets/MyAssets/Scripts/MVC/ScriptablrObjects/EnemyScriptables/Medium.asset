@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f7461d8664908438a58641c8fb3a48, type: 3}
   m_Name: Medium
   m_EditorClassIdentifier: 
-  enemyType: 0
+  enemyType: 2
   speed: 25
   turn: 55
   health: 0

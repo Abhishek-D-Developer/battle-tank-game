@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Enemy.View;
-using Enemy.Scriptables;
 using Tank.Controller;
 using Enemy.Model;
 using Enemy.Controller;
+using Scriptables;
 
 namespace Enemy.Service
 {
-    public class EnemyTankService
+    public class EnemyService
     {
         public EnemyView enemyView;
-        public EnemyScriptableObjectList enemies
+        public EnemyScriptableObjectList enemies;
 
         void Start()
         {
@@ -24,17 +24,17 @@ namespace Enemy.Service
         {
             for (int i = 0; i < 3; i++)
             {
-                CreateEnemies(i);
+              //  CreateEnemies(i);
             }
         }
 
-        private EnemyController CreateEnemies(int index)
+        /*private EnemyController CreateEnemies(int index)
         {
-            EnemyScriptableObjectList enemyScriptableObjectList = enemies.enemyList[index];
+            EnemyScriptableObject enemyScriptableObject = enemies.enemyList;
 
-            EnemyModel enemyModel = new EnemyModel(enemyScriptableObjectList);
+            EnemyModel enemyModel = new EnemyModel(enemyScriptableObject);
             EnemyController enemyController = new EnemyController(enemyModel, enemyView);
             return enemyController;
-        }
+        }*/
     }
 }
